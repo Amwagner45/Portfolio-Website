@@ -51,6 +51,7 @@ html {
     position: fixed;
     min-width: 100%;
     width: 100%;
+    background-color: var(--clr-navy);
 }
 
 .primary-nav {
@@ -162,13 +163,12 @@ html {
 
 .project-links {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
     gap: 5rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    margin-bottom: 10rem;
-    margin-top: 3rem;
+    column-gap: 0rem;
+
 }
 
 @media (max-width: 1500px) {
