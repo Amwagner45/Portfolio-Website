@@ -28,7 +28,6 @@
 body,
 html {
     height: 100vh;
-    min-width: 650px;
     overflow-x: hidden;
     font-family: var(--font-sans);
     font-size: 0.9rem;
@@ -214,9 +213,10 @@ img {
 /* Footer */
 
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: var(--clr-light-navy);
     padding-block: 4rem;
+    margin-bottom: 0;
 }
 
 .socials {
@@ -249,7 +249,7 @@ footer {
     color: var(--clr-slate);
 }
 
-.email {
+/* .email {
     margin-right: 6.6rem;
 }
 
@@ -257,7 +257,7 @@ footer {
     position: relative;
     text-decoration: none;
     color: var(--clr-slate);
-}
+} */
 
 /* .top {
     display: absolute;
