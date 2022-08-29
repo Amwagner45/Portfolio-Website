@@ -7,24 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alexander Wagner Portfolio</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js" defer></script>
 </head>
 
 <body>
     <header class="nav">
         <nav class="primary-nav">
             <img class="logo" src="logo.png" alt="logo">
-            <ul class="links">
+            <ul class="links" id="Links">
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                </li>
                 <li>
                     <a href="#About" class="nav-text"> <span class="number-decor">01. </span> About </a>
                 </li>
                 <li>
                     <a href="#Experience" class="nav-text"> <span class="number-decor">02. </span> Experience </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#Experience" class="nav-text"> <span class="number-decor">03. </span> Work </a>
-                </li>
+                </li> -->
                 <li>
-                    <a href="#Contact" class="nav-text"> <span class="number-decor">04. </span> Contact </a>
+                    <a href="#Contact" class="nav-text"> <span class="number-decor">03. </span> Contact </a>
                 </li>
                 <li>
                     <button class="resume-btn"><a href="/Alexander M Wagner Data Analyst Resume.pdf"
