@@ -51,9 +51,8 @@ img {
 
 .nav {
     position: fixed;
-    min-width: 100%;
-    width: 100%;
     background-color: var(--clr-navy);
+
 }
 
 .primary-nav {
@@ -65,6 +64,7 @@ img {
     /* box-shadow: 1px 1px 5px 5px var(--clr-navy); */
     font-size: 13px;
     font-family: var(--font-mono);
+    margin-right: 1rem;
 
 }
 
@@ -129,7 +129,7 @@ img {
         display: fixed;
         justify-content: right;
         padding-top: 3rem;
-        padding-right: 3rem;
+        padding-right: 1.3rem;
         margin-bottom: 2rem
     }
 
